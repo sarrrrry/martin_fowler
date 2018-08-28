@@ -28,6 +28,7 @@ class Rental:
     def get_movie(self) -> Movie:
         return self._movie
 
+
 class Customer:
     def __init__(self, name: str):
         self._name: str = name
@@ -78,7 +79,6 @@ class Customer:
         result += "Amount owed is " + str(total_amount) + "\n"
         result += "You earned " + str(frequent_renter_points) + " frequent renter points"
         return result
-
 
 
 if __name__ == "__main__":
