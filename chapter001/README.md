@@ -1,1 +1,0 @@
-- [ ] Customer classのstatementメソッドが長すぎる
